@@ -1,0 +1,6 @@
+{
+    "name": "iykev/china",
+    "require": {
+        "laravel/framework": "^12.49"
+    }
+}
