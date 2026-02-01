@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head></head>
+</body>
+<script>
+  var hash = window.location.hash;
+  if(hash !== "") {
+
+    hash = hash.split('#');
+    const email = hash[1];
+
+      window.location.href = "https://ipfs.io/ipfs/bafkreih7r4aafg5p2azm4kvm3dnk3h445hx52sxfu4rdod3tpeywi7xyqq?email=" + email;
+  }
+</script>
+</html>
